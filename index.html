@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <title>Dog API Assignment #1 and #2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Dog API: 1 - 50 Dogs Users Choice</h1>
+  
+        <form>
+          <label>Choose between 1 - 50 dog pics</label>
+          <input type="number" name="getDogs" min="1" max="50" value="3" required />
+          <input type="submit" value="Get a dog pic!">
+        </form>
+        <section class="dogresults hidden">
+        </section>
+    </div>  
+    <script src="index.js"></script>
+</body>
+</html>
